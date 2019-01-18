@@ -14,7 +14,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       theme: ThemeData(
           primarySwatch: Colors.deepOrange, //cor inicial
-          primaryColor: Color.fromARGB(255, 4, 125, 255)), //Cor principal do aplicativo
+          primaryColor: Color.fromARGB(255, 0, 0, 125)), //Cor principal do aplicativo
       debugShowCheckedModeBanner: false, //negocio que fica no canto direito
       home: HomeScreen(),
     );

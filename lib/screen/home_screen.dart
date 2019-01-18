@@ -147,6 +147,25 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
 
+              Padding(
+
+                padding: EdgeInsets.only(top:10.0, bottom: 10.0), //borda para o botão
+
+                child: Container( //para especificar o tamanho do botão
+                  height: 50.0,
+                  child: RaisedButton(
+                    child: Text(
+                      "Nova",
+                      style: TextStyle(color: Colors.black, fontSize: 25.0),
+                    ),
+                    color: Colors.yellow,//cor de fundo do botão
+                    onPressed: (){
+
+                    },
+                  ),
+                ),
+              ),
+
               Text(
                 _infoTeste,
                 textAlign: TextAlign.center,
