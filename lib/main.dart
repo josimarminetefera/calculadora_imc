@@ -1,4 +1,5 @@
 import 'package:calculadora_imc/screen/home_screen.dart';
+import 'package:calculadora_imc/screen/principal_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -16,7 +17,7 @@ class _MyAppState extends State<MyApp> {
           primarySwatch: Colors.deepOrange, //cor inicial
           primaryColor: Color.fromARGB(255, 0, 0, 125)), //Cor principal do aplicativo
       debugShowCheckedModeBanner: false, //negocio que fica no canto direito
-      home: HomeScreen(),
+      home: PrincipalScreen(),
     );
   }
 }
